@@ -471,4 +471,55 @@ p{
 	font-weight: 500;
 	padding: 20px 0 5px;
 }
-
+/*  */
+.map{
+    width: 48%;
+}
+.contact-details{
+    width: 48%;
+}
+.contact-details h1{
+    font-weight: 400;
+    padding: 20px 0;
+}
+.contact-details p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+    font-size: 18px;
+}
+.contact-details form input,textarea{
+    padding: 15px 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #6278df;
+    border-radius: 10px;
+}
+.contact-details form input,textarea:focus{
+    outline: #6278df;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.3);
+}
+.contact-details .btn {
+	background: #6278df;
+	color: #fff;
+}
+.contact-details .btn:hover{
+    color: #6278df;
+    background: #fff;
+    border: 2px solid #6278df;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.3);
+}
+.w-100{
+    width: 100%;
+}
+.w-50{
+    width: 48%;
+}
+/* Footer Section CSS */
+.footer-section {
+    padding: 15px 0;
+    text-align: center;
+}
+.footer-section a,p{
+    color: #000;
+}
